@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  margin-right: calc(-1 * (100vw - 100%));
+  overflow-x: hidden;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 72px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.forma {
+  display: flex;
+  justify-content: center;
+}
+
+.forma > div {
+  position: relative;
+}
+
+.forma span {
+  line-height: 47px;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.forma input {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+#error {
+  position: absolute;
+  top: 34px; left: 30px;
+  display: none;
+  font-size: 14px;
+  color: red;
+  line-height: 14px;
+  margin: 0;
+}
+
+.forma button {
+  margin-left: 20px;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.forma button[type=submit] {
+  background-color: lawngreen;
+}
+
+.forma button[type=reset] {
+  background-color: red;
+}
+
+#reset__all {
+  background-color: black;
+  color: red;
+  font-weight: 800;
+}
+
+.repo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 24px;
+  align-items: center;
+}
+
+.repo__card {
+  width: 560px;
+  background-color: aliceblue;
+  border: 2px solid powderblue;
+  border-radius: 10px;
+  padding: 6px 20px;
+}
+
+.repo__card a {
+  font-size: 20px;
+  background-color: aqua;
+  border-radius: 8px;
+  padding: 2px 12px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.repo__info {
+  padding-top: 10px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.repo__info span {
+  padding: 2px 12px;
+  background-color: limegreen;
+  border-radius: 8px;
+}

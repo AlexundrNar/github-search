@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Github поисковик репозиториев</h1>
+  </header>
+
+  <main>
+    <section>
+      <div>
+        <form class="forma" action="" onsubmit="submit">
+          <span>Поиск по названию...</span>
+          <div>
+            <input id="search" value="" type="text">
+            <span id="error">символов недостаточно</span>
+          </div>
+          <button type="submit">Найти</button>
+          <button type="reset">Очистить</button>
+          <button id="reset__all" type="reset">Очистить всё</button>
+        </form>
+      </div>
+
+      <div class="repo">
+      
+      </div>
+    </section>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>
